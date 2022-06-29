@@ -1,0 +1,12 @@
+server:
+  port: 8080
+management:
+  security:
+    enabled: false
+endpoints:
+  prometheus:
+    id: metrics
+  metrics:
+    id: springmetrics
+    sensitive: false
+    enabled: true
